@@ -3,9 +3,6 @@
 /* Set custom variables here */
 
 
-
-
-
 .navbar-brand {
   color: #F6F3ED;
 }
@@ -21,7 +18,7 @@ h1, h2, h3 {
 #hero {
   height: 800px;
   background-color: #E4E6DB;
-  background-image: url(../images/hero-bg-img.png);
+  background-image: url(images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
