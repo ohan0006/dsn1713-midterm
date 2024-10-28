@@ -3,13 +3,15 @@
 /* Set custom variables here */
 
 :root {
-  --bg-primary: #2e483a;
-  --bg-primary-rgb: 46, 72, 58;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
 }
 
 .bg-primary {
-  background-color: var(--bg-primary);
+  background-color: var(--bs-primary-rgb);
+  color: white;
 }
+
 
 .navbar-brand {
   color: #F6F3ED;
@@ -25,8 +27,8 @@ h1, h2, h3 {
 
 #hero {
   height: 800px;
-  background-color: #E4E6DB;
-  background-image: url("images/hero-bg-img.png");
+  background-color: #fafaf9;
+  background-image: url('/images/hero-bg-img.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,14 +39,14 @@ h1, h2, h3 {
 }
 
 #cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/cta-bg.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/cta-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #cta .d-flex {
-  height: 400px;
+  height: 600px;
 }
 
 section:not(#hero):not(#cta){
